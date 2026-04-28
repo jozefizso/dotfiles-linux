@@ -13,7 +13,16 @@ if ! command -v brew >/dev/null; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-
 #####
 # Install apps
 brew bundle
+
+
+
+####
+# Setup Aptbundle
+curl -fsSL https://raw.githubusercontent.com/apt-bundle/apt-bundle/main/install.sh | sudo bash
+
+####
+# Install packages
+sudo apt-bundle

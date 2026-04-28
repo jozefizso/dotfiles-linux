@@ -1,0 +1,4 @@
+# Core tools
+apt build-essential
+apt curl
+apt git
