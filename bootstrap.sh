@@ -26,3 +26,8 @@ curl -fsSL https://raw.githubusercontent.com/apt-bundle/apt-bundle/main/install.
 ####
 # Install packages
 sudo apt-bundle
+
+
+####
+# Setup Starship
+curl -sS https://starship.rs/install.sh | sh

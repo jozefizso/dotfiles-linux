@@ -2,3 +2,6 @@
 apt build-essential
 apt curl
 apt git
+
+# Shell utilities
+apt stow
